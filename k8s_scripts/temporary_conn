@@ -1,0 +1,1 @@
+kubectl run tmp --image=alpine/curl:3.14 --restart=Never -it --rm -- curl random-generator.default.svc.cluster.local
